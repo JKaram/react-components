@@ -1,17 +1,4 @@
-article {
-  color: #fff;
-  width: 600px;
-  height: 200px;
-  background: linear-gradient(
-      to right,
-      rgba(195, 14, 47, 0.701),
-      rgb(253, 184, 39, 0.701)
-      
-    ),
-    url("./images/toronto-background.png");
-    background-blend-mode: multiply;
-  display: flex;
-}
+
 
 .home {
   width: 40%;
@@ -19,7 +6,8 @@ article {
 }
 
 img {
-
+  display: block;
+  margin: 0px auto;
 }
 
 h1 {
