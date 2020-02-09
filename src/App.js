@@ -36,16 +36,16 @@ function App() {
       />
 
       <Game
-        homeName="Toronto Raptors"
-        awayName="Los Angeles Lakers"
-        homeLogo="https://content.sportslogos.net/logos/6/213/full/slhg02hbef3j1ov4lsnwyol5o.png"
-        awayLogo="https://www.stickpng.com/assets/images/58419d0aa6515b1e0ad75a6c.png"
+        homeName="Brooklyn Nets"
+        awayName="Boston Celtics"
+        homeLogo="https://raw.githubusercontent.com/JKaram/react-components/master/src/images/58419c7ba6515b1e0ad75a62.png"
+        awayLogo="https://raw.githubusercontent.com/JKaram/react-components/master/src/images/58419c6aa6515b1e0ad75a61.png"
         gameStatus="7:30pm"
         homePoints="20"
         awayPoints="11"
-        homeCity="https://raw.githubusercontent.com/JKaram/react-components/master/src/images/toronto-background.png"
-        homeColor="195, 14, 47, 0.701"
-        awayColor="253, 184, 39, 0.701"
+        homeCity="https://raw.githubusercontent.com/JKaram/react-components/master/src/images/about-1170x450-d9c047de75.png"
+        homeColor="0, 0, 0, 0.701"
+        awayColor="1,131,72, 0.701"
       />
 
       
