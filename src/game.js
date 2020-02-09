@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import styled from "styled-components"
 import "./game.css"
 
+
 function showPointsIfActive(pointsProp) {
   if (pointsProp) return pointsProp;
   return null
@@ -11,7 +12,7 @@ const Article = styled.article`
   color: #fff;
   width: 600px;
   height: 200px;
-  margin: 0 auto;
+  margin: 30px auto 0;
   background: linear-gradient(
       to right,
       rgba(${props => props.homeColor}),
@@ -36,12 +37,13 @@ const ScoreLogo = styled.div`
 `
 const GameInfo = styled.div`
   display: flex;
-  flex-direction: column-reverse;
+  flex-direction: column;
   text-align: center;
   width: 20%;
   font-weight: bold;
-}
 `
+
+
 export default function Game({ homeName, awayName, homeLogo, awayLogo, homeCity, gameStatus, homePoints, awayPoints, homeColor, awayColor }) {
   return (
     <Article homeColor={homeColor} awayColor={awayColor} homeCity={homeCity} >
@@ -54,8 +56,9 @@ export default function Game({ homeName, awayName, homeLogo, awayLogo, homeCity,
       </Section>
 
       <GameInfo>
-      <button type="button">Show Bets</button>
-      {gameStatus}
+      
+      <h3>@ {gameStatus}</h3>
+      {/* <button type="button">Show More</button> */}
       </GameInfo>
 
       <Section>

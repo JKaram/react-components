@@ -1,10 +1,12 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster&display=swap');
+
 .App {
   background-color: #FAFAFA;
-  height: 100vh; /* Magic here */
+  height: 100%; /* Magic here */
   width: 100vh; /* Magic here */
   display: flex;
   flex-direction: column;
-  margin: 0 auto;
+  margin: 0 auto
 }
 
 
