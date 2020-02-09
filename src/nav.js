@@ -34,7 +34,7 @@ const User = styled.div`
   flex-direction: column;
 `
 
-export default function Navigation({ userid, username, balance }) {
+export default function Navigation({ userid, username, userphoto, balance }) {
   return (
     <Header>
       <Nav>
@@ -48,7 +48,8 @@ export default function Navigation({ userid, username, balance }) {
             {balance}
           </Wallet>
           <User>
-
+          <img src={userphoto} alt={username} height="24px" width="24px"></img>
+            {username}
           </User>
         </Userinfo>
       </Nav>
