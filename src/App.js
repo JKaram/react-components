@@ -3,12 +3,15 @@ import './App.css';
 import Game from './game'
 import GameStats from './gameStats'
 import Checkout from './checkout'
-import Nav from './nav'
+
+import Navigation from './nav';
 
 function App() {
   return (
     <div className="App">
-      <Nav />
+      <Navigation
+        balance="14.56"
+      />
 
       <Game
         homeName="Toronto Raptors"
