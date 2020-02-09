@@ -42,8 +42,7 @@ function App() {
       />
 
       
-      <Checkout
-      />
+      <GameStats />
 
     </div>
   );

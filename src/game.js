@@ -21,6 +21,12 @@ const Article = styled.article`
    url(${props => props.homeCity ? props.homeCity : 'https://previews.123rf.com/images/enterline/enterline1311/enterline131100002/24220420-a-realistic-vector-hardwood-textured-basketball-court-.jpg'});
   background-blend-mode: multiply;
   display: flex;
+
+  &:hover {
+    box-shadow: 0 8px 6px -6px black;
+    cursor: pointer;
+  }
+
 `
 
 const Section = styled.section`
