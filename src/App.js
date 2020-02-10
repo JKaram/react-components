@@ -41,7 +41,20 @@ function App() {
         awayColor="1,131,72, 0.701"
       />
 
-      
+      <Game
+        homeName="Brooklyn Nets"
+        awayName="Boston Celtics"
+        homeLogo="https://raw.githubusercontent.com/JKaram/react-components/master/src/images/58419c7ba6515b1e0ad75a62.png"
+        awayLogo="https://raw.githubusercontent.com/JKaram/react-components/master/src/images/58419c6aa6515b1e0ad75a61.png"
+        gameStatus="7:30"
+        homePoints=""
+        awayPoints=""
+        homeCity="https://raw.githubusercontent.com/JKaram/react-components/master/src/images/brooklyn.png"
+        homeColor="10, 100, 200, 0.701"
+        awayColor="1,131,72, 0.701"
+      />
+
+
       <GameStats />
 
     </div>
