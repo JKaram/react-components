@@ -1,6 +1,5 @@
-import React, { useState } from "react";
+import React from "react";
 import styled from "styled-components"
-import "./game.css"
 
 
 function showPointsIfActive(pointsProp) {
@@ -63,7 +62,7 @@ export default function Game({ homeName, awayName, homeLogo, awayLogo, homeCity,
 
       <GameInfo>
       
-      <h3>@ {gameStatus}</h3>
+      <h3>{gameStatus}</h3>
       {/* <button type="button">Show More</button> */}
       </GameInfo>
 

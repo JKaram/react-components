@@ -14,7 +14,14 @@ function App() {
         userphoto="https://raw.githubusercontent.com/JKaram/react-components/master/src/images/img_98061.png"
         balance="14.56"
       />
+    
 
+
+
+
+    
+    
+      {/* 
       <Game
         homeName="Toronto Raptors"
         awayName="Los Angeles Lakers"
@@ -40,22 +47,22 @@ function App() {
         homeColor="10, 100, 200, 0.701"
         awayColor="1,131,72, 0.701"
       />
-
-      <Game
-        homeName="Brooklyn Nets"
-        awayName="Boston Celtics"
-        homeLogo="https://raw.githubusercontent.com/JKaram/react-components/master/src/images/58419c7ba6515b1e0ad75a62.png"
-        awayLogo="https://raw.githubusercontent.com/JKaram/react-components/master/src/images/58419c6aa6515b1e0ad75a61.png"
-        gameStatus="7:30"
-        homePoints=""
-        awayPoints=""
-        homeCity="https://raw.githubusercontent.com/JKaram/react-components/master/src/images/brooklyn.png"
-        homeColor="10, 100, 200, 0.701"
-        awayColor="1,131,72, 0.701"
-      />
-
-
       <GameStats />
+      <Game
+        homeName="Golden State Warriors"
+        awayName="Pheonix Suns"
+        homeLogo="https://raw.githubusercontent.com/JKaram/react-components/master/src/images/58419ce2a6515b1e0ad75a69.png"
+        awayLogo="https://raw.githubusercontent.com/JKaram/react-components/master/src/images/58419d52a6515b1e0ad75a6d.png"
+        gameStatus="1st Quarter"
+        homePoints="23"
+        awayPoints="11"
+        homeCity="https://raw.githubusercontent.com/JKaram/react-components/master/src/images/golden-state.png"
+        homeColor="26,100,183, 0.701"
+        awayColor="230,98,38, 0.701"
+      /> */}
+
+
+
 
     </div>
   );
